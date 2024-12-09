@@ -19,3 +19,10 @@ window.addEventListener("scroll", function(){
         navbar.classList.remove("nav_bg")
     }
 })
+
+const date = new Date();
+const year = date.getFullYear();
+console.log('year: ', year);
+
+const copyRightBox = document.getElementById("copyright-box");
+copyRightBox.innerHTML = year;
