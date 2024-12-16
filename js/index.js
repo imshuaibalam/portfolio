@@ -26,3 +26,10 @@ console.log('year: ', year);
 
 const copyRightBox = document.getElementById("copyright-box");
 copyRightBox.innerHTML = year;
+
+const sendBtn = document.getElementById("send-btn");
+
+sendBtn.addEventListener("click", () => {
+    alert("Sorry, we couldn't send your message. Please email us at shuaib.connect@gmail.com. Thanks!");
+});
+
